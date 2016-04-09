@@ -55,7 +55,7 @@ mean_std <- total_data[,c(1,2,mean_std_index)]
 
 #================================================================
 #Uses descriptive activity names to name the activities in the data set
-colnames(mean_std)<- c("activeity_id","subject",as.character(features[mean_std_index,2])) #change colnames
+colnames(mean_std)<- c("activeity_id","subject",as.character(features[mean_std_index-2,2])) #change colnames
 
 
 #================================================================
