@@ -10,13 +10,40 @@ Data are available in: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Re
 * ```x_train```, ```y_train```, ```x_test```, ```y_test```, ```subject_train``` and ```subject_test``` are from the downloaded raw data.
 * ```test_data```, ```train_data```  merge the previous data sets to further analysis.
 * ```total_data``` merges ```test_data```, ```train_data```.
-*```active_labels``` and ```features``` inlcude activity names and feature names, respectively.
+*```active_labels``` and ```features``` include activity names and feature names, respectively.
 * ```mean_std_index``` is the index of mean and standard deviation features that we need.
 *```mean_std``` is the data we need that includes only mean and standard deviation measurements.
 *```tidy_data``` is mean values for each activity and subject, and stores in ```tidy_data.txt```.
 
+## Identifiers
+subject: The ID of test subjects, range from 1 to 30.
+activity: The type of activity. Includes:
+*WALKING 
+*WALKING_UPSTAIRS
+*WALKING_DOWNSTAIRS 
+*SITTING 
+*STANDING 
+*LAYING 
 
-
+## Measurments
+The features selected for this database come from the accelerator and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner. frequency of 0.3 Hz.(from readme file of UCI machine learning repository)
+```tBodyAcc-XYZ```
+```tGravityAcc-XYZ```
+```tBodyAccJerk-XYZ```
+```tBodyGyro-XYZ```
+```tBodyGyroJerk-XYZ```
+```tBodyAccMag```
+```tGravityAccMag```
+```tBodyAccJerkMag```
+```tBodyGyroMag```
+```tBodyGyroJerkMag```
+```fBodyAcc-XYZ```
+```fBodyAccJerk-XYZ```
+```fBodyGyro-XYZ```
+```fBodyAccMag```
+```fBodyAccJerkMag```
+```fBodyGyroMag```
+```fBodyGyroJerkMag```
 
 
 ## Analysis and Feature Selection
