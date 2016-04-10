@@ -35,37 +35,21 @@ activity: The type of activity. Includes:
 The features selected for this database come from the accelerator and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner. frequency of 0.3 Hz.(from readme file of UCI machine learning repository)
 
 * ```tBodyAcc-XYZ```
-
 * ```tGravityAcc-XYZ```
-
 * ```tBodyAccJerk-XYZ```
-
 * ```tBodyGyro-XYZ```
-
 * ```tBodyGyroJerk-XYZ```
-
 * ```tBodyAccMag```
-
 * ```tGravityAccMag```
-
 * ```tBodyAccJerkMag```
-
 * ```tBodyGyroMag```
-
 * ```tBodyGyroJerkMag```
-
 * ```fBodyAcc-XYZ```
-
 * ```fBodyAccJerk-XYZ```
-
 * ```fBodyGyro-XYZ```
-
 * ```fBodyAccMag```
-
 * ```fBodyAccJerkMag```
-
 * ```fBodyGyroMag```
-
 * ```fBodyGyroJerkMag```
 
 
